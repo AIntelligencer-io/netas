@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>NETAS Lojistik | Uluslararası Taşımacılık, Gümrük ve Depolama</title>
+  <meta name="description" content="NETAS: hava, deniz, kara ve demiryolu ile 120'den fazla ülkeye kapıdan kapıya uluslararası lojistik, gümrük ve depolama.">
+  <meta name="theme-color" content="#090909">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="NETAS Lojistik">
+  <meta property="og:description" content="Hava, deniz, kara ve demiryolunda uçtan uca uluslararası lojistik.">
+  <meta property="og:locale" content="tr_TR">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400..800&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body><svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-left" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 6l-6 6 6 6"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></symbol>
+    <symbol id="i-bolt" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/></symbol>
+    <symbol id="i-box" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M12 3 3.5 7.5v9L12 21l8.5-4.5v-9z"/><path d="M3.5 7.5 12 12l8.5-4.5M12 12v9"/></symbol>
+    <symbol id="i-mouse" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="6.5" y="3" width="11" height="18" rx="5.5"/><path d="M12 7v3"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.5 6 8.5 7 8.5-7"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M5 3h3.5l2 5-2.5 1.5a11 11 0 0 0 6.5 6.5l1.5-2.5 5 2V19a2 2 0 0 1-2 2A17 17 0 0 1 3 5a2 2 0 0 1 2-2z"/></symbol>
+    <symbol id="i-screen" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="3" y="4" width="18" height="12.5" rx="1.5"/><path d="M8 20.5h8M12 16.5v4"/></symbol>
+    <symbol id="m-ship" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 14h18l-2.6 5H5.6z"/><path d="M6 14V9h4v5M10 14v-3h4v3M14 14V8h4v6"/></symbol>
+    <symbol id="m-plane" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M10.2 21l1.8-6.5-5 .8-1.8 2H3.6l.9-3.3-.9-3.3h1.6l1.8 2 5 .8L10.2 3h2.2l4 7.6h3.9a1.9 1.9 0 0 1 0 3.8h-3.9L12.4 21z"/></symbol>
+    <symbol id="m-truck" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5.5" width="12" height="10.5" rx="1"/><path d="M14 9h4.2L21 12.4V16h-7"/><circle cx="6.5" cy="17.5" r="1.9"/><circle cx="17" cy="17.5" r="1.9"/></symbol>
+    <symbol id="m-train" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="14" height="13.5" rx="3"/><path d="M5 10h14M8.5 16.5 6.5 21M15.5 16.5l2 4.5M7.5 19.5h9"/></symbol>
+  </defs>
+</svg>
+
+<header class="site-header" id="site-header">
+  <div class="utility">
+    <div class="wrap utility-row">
+      <span class="utility-item"><svg aria-hidden="true"><use href="#i-pin"/></svg>Gerçek zamanlı gönderi takibi</span>
+      <span class="utility-div" aria-hidden="true"></span>
+      <span class="utility-item"><svg aria-hidden="true"><use href="#i-bolt"/></svg>Hızlı ve kolay teslimat</span>
+      <span class="utility-div" aria-hidden="true"></span>
+      <span class="utility-item"><svg aria-hidden="true"><use href="#i-globe"/></svg>120+ ülkede dünya çapında ağ</span>
+    </div>
+  </div>
+  <div class="navbar">
+    <div class="wrap nav">
+      <a class="brand" href="#top" aria-label="NETAS ana sayfa">
+        <svg viewBox="0 0 34 34" aria-hidden="true"><rect width="34" height="34" rx="4" fill="#EA580C"/><path d="M10 24V10l14 14V10" fill="none" stroke="#0F0007" stroke-width="3.2" stroke-linecap="square"/></svg>
+        <span>NETAS</span>
+      </a>
+      <nav class="nav-links" id="primary-nav" aria-label="Ana menü">
+        <a href="#hizmetler">Hizmetler</a>
+        <a href="#kurumsal">Kurumsal</a>
+        <a href="#surec">Süreç</a>
+        <a href="#platform">Platform</a>
+        <a href="#haberler">Haberler</a>
+        <a href="#iletisim">İletişim</a>
+      </nav>
+      <a class="split-btn nav-cta" href="#iletisim"><span class="sb-text">Teklif al</span><span class="sb-icon"><svg aria-hidden="true"><use href="#i-arrow"/></svg></span></a>
+      <button class="menu-btn" id="menu-btn" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Menüyü aç">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero" aria-labelledby="hero-title">
+    <canvas class="hero-canvas" id="globe" aria-hidden="true"></canvas>
+    <div class="hero-overlay" aria-hidden="true"></div>
+    <div class="wrap hero-inner">
+      <div class="hero-content">
+        <span class="badge badge-glass">İstanbul · Mersin · Rotterdam</span>
+        <h1 id="hero-title">Yükünüz sizin takviminize göre <em>yola çıkar.</em></h1>
+        <p class="hero-summary">Hava, deniz, kara ve demiryolunda uçtan uca lojistik. Yükünüzü 120'den fazla ülkeye tek teklif, tek koordinatör ve tek takip ekranıyla taşıyoruz.</p>
+        <a class="btn btn-brand" href="#iletisim"><span class="btn-dot" aria-hidden="true"></span><span class="btn-roll"><span>Sevkiyat planla</span><span aria-hidden="true">Sevkiyat planla</span></span></a>
+        <dl class="hero-clocks" id="clocks" aria-label="Operasyon masası yerel saatleri">
+          <div><dt>İstanbul</dt><dd data-tz="Europe/Istanbul">--:--</dd></div>
+          <div><dt>Rotterdam</dt><dd data-tz="Europe/Amsterdam">--:--</dd></div>
+          <div><dt>Şanghay</dt><dd data-tz="Asia/Shanghai">--:--</dd></div>
+          <div><dt>New York</dt><dd data-tz="America/New_York">--:--</dd></div>
+        </dl>
+      </div>
+      <div class="hero-bottom">
+        <span class="hero-scroll"><svg aria-hidden="true"><use href="#i-mouse"/></svg>Rotada kalmak için kaydırın</span>
+        <div class="tracker" id="takip">
+          <div class="tracker-tabs" role="tablist" aria-label="Gönderi araçları">
+            <button class="t-tab" role="tab" id="tab-track" type="button" aria-selected="true" aria-controls="panel-track">Takip</button>
+            <button class="t-tab" role="tab" id="tab-sched" type="button" aria-selected="false" aria-controls="panel-sched" tabindex="-1">Seferler</button>
+          </div>
+          <div class="tracker-body" role="tabpanel" id="panel-track" aria-labelledby="tab-track">
+            <div class="tracker-head"><svg aria-hidden="true"><use href="#i-box"/></svg><h2>Gönderi takibi</h2></div>
+            <form id="track-form" novalidate>
+              <label class="t-label" for="track-id">Takip numarası *</label>
+              <div class="t-row">
+                <input class="t-input" id="track-id" name="track-id" value="NTS-482190" placeholder="NTS-000000" autocomplete="off" spellcheck="false" aria-describedby="track-samples">
+                <button class="t-submit" type="submit">Sorgula <svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+              </div>
+              <div class="t-samples" id="track-samples">Örnek:
+                <button class="t-sample" type="button" data-id="NTS-482190">NTS-482190</button>
+                <button class="t-sample" type="button" data-id="NTS-771045">NTS-771045</button>
+                <button class="t-sample" type="button" data-id="NTS-305512">NTS-305512</button>
+              </div>
+            </form>
+            <div id="track-result" aria-live="polite"></div>
+          </div>
+          <div class="tracker-body" role="tabpanel" id="panel-sched" aria-labelledby="tab-sched" hidden>
+            <ul class="sched">
+              <li><b>IST — Rotterdam</b><span>ETA 14 gün · Zamanında</span></li>
+              <li><b>MER — Hamburg</b><span>ETA 15 gün · Zamanında</span></li>
+              <li><b>IST — Frankfurt</b><span>ETA 1 gün · Hava kargo, zamanında</span></li>
+              <li><b>KSK — Xi'an</b><span class="late">ETA 18 gün · 1 gün gecikme bekleniyor</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section trust" aria-label="Bize güvenen şirketler">
+    <div class="trust-badge"><span class="badge">Önde gelen şirketlerin tercihi</span></div>
+    <div class="marquee">
+      <div class="marquee-track">
+        <ul class="marquee-list" id="logo-list">
+          <li class="logo-item"><svg viewBox="0 0 30 30" aria-hidden="true"><circle cx="15" cy="15" r="13" fill="none" stroke="currentColor" stroke-width="3"/><circle cx="15" cy="15" r="5" fill="currentColor"/></svg>Anadolu Tekstil</li>
+          <li class="logo-item"><svg viewBox="0 0 30 30" aria-hidden="true"><path d="M3 25 15 4l12 21z" fill="currentColor"/></svg>Marmara Otomotiv</li>
+          <li class="logo-item"><svg viewBox="0 0 30 30" aria-hidden="true"><rect x="3" y="3" width="10" height="24" fill="currentColor"/><rect x="17" y="9" width="10" height="18" fill="currentColor"/></svg>Ege Makine</li>
+          <li class="logo-item"><svg viewBox="0 0 30 30" aria-hidden="true"><path d="M15 3a12 12 0 1 0 12 12H15z" fill="currentColor"/></svg>Kuzey Gıda</li>
+          <li class="logo-item"><svg viewBox="0 0 30 30" aria-hidden="true"><path d="M4 4h22v6H10v6h12v10H4z" fill="currentColor"/></svg>Selin Kimya</li>
+          <li class="logo-item"><svg viewBox="0 0 30 30" aria-hidden="true"><path d="M3 15h24M15 3v24" stroke="currentColor" stroke-width="5"/></svg>Toros İlaç</li>
+          <li class="logo-item"><svg viewBox="0 0 30 30" aria-hidden="true"><path d="M3 22 11 8l6 9 4-6 6 11z" fill="currentColor"/></svg>Zirve Enerji</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="ag" aria-labelledby="net-title">
+    <div class="wrap">
+      <div class="net-head">
+        <div class="head-left">
+          <span class="badge">02 / Küresel ağ</span>
+          <h2 class="sec-title" id="net-title">Altı merkez, <span class="pill-img"><canvas class="yard" data-sky="dusk" data-seed="3" data-horizon="0.45"></canvas></span> kendi koridorumuz ve <span class="pill-img"><canvas class="yard" data-sky="day" data-seed="8" data-horizon="0.5"></canvas></span> tüm ana ticaret hatları.</h2>
+        </div>
+        <div class="head-right">
+          <p class="sec-text">İstanbul–Rotterdam koridorunda garantili yer, onaylı ortak hatlarla dünyanın geri kalanına uzanan bir ağ. Rotaları operasyon masamız gerçek zamanlı izler, gerekirse anında yeniden planlar.</p>
+          <a class="btn btn-brand" href="#iletisim"><span class="btn-dot" aria-hidden="true"></span><span class="btn-roll"><span>Sevkiyat planla</span><span aria-hidden="true">Sevkiyat planla</span></span></a>
+        </div>
+      </div>
+      <div class="map-area">
+        <canvas class="map-canvas" id="map" role="img" aria-label="Dünya haritası: İstanbul merkezli rotalar Rotterdam, New York, Dubai, Şanghay ve São Paulo'ya uzanıyor."></canvas>
+        <div class="dest-layer" id="dest-layer"></div>
+        <div class="net-stats">
+          <div class="net-stat"><b>06</b><span>Bölgesel merkez</span></div>
+          <div class="net-stat"><b>40+</b><span>Haftalık sefer</span></div>
+          <div class="net-stat"><b>128</b><span>Ortak hat</span></div>
+          <div class="net-stat"><b>7/24</b><span>Operasyon masası · TSİ</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-page" id="hizmetler" aria-labelledby="svc-title">
+    <div class="wrap">
+      <div class="head-row">
+        <div class="head-left">
+          <span class="badge">03 / Hizmetler</span>
+          <h2 class="sec-title" id="svc-title">Her taşıma modu, tek manifesto. Yükünüz uçtan uca bizde.</h2>
+        </div>
+        <div class="head-right">
+          <p class="sec-text">Yükünüzü en uygun moda ya da modların birleşimine yerleştiriyoruz. Teklifte süre, maliyet ve karbon salımını yan yana görürsünüz.</p>
+          <div class="slider-nav">
+            <button class="nav-arrow" type="button" data-slider="svc-slider" data-dir="-1" aria-label="Önceki hizmet"><svg aria-hidden="true"><use href="#i-left"/></svg></button>
+            <button class="nav-arrow" type="button" data-slider="svc-slider" data-dir="1" aria-label="Sonraki hizmet"><svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+          </div>
+        </div>
+      </div>
+      <div class="slider" id="svc-slider" tabindex="0" aria-label="Hizmetler listesi, yatay kaydırılabilir">
+        <article class="svc">
+          <div class="svc-top"><i></i><span>01</span><em>HAVA</em></div>
+          <div class="svc-art">
+            <svg class="art" viewBox="0 0 200 140" aria-hidden="true"><path d="M20 98h160" stroke="currentColor" stroke-width="2" stroke-dasharray="6 6"/><path d="M58 92 88 82 70 46h16l38 32 34-5a9 9 0 0 1 3 17l-34 9-22 32H97l10-27-34 8-8 11H55l5-15-8-12h10z" fill="currentColor"/><circle class="art-accent" cx="160" cy="34" r="12" fill="currentColor"/></svg>
+            <a class="split-btn" href="#iletisim"><span class="sb-text">Detayları gör</span><span class="sb-icon"><svg aria-hidden="true"><use href="#i-arrow"/></svg></span></a>
+          </div>
+          <h3>Hava kargo</h3>
+          <p>Tarifeli ve charter kapasitede öncelikli yükleme. Zamana duyarlı yükler 48 saate kadar kapıdan kapıya.</p>
+          <div class="svc-tags"><span>Ekspres</span><span>Charter</span><span>DGR</span></div>
+        </article>
+        <article class="svc">
+          <div class="svc-top"><i></i><span>02</span><em>KARA</em></div>
+          <div class="svc-art">
+            <svg class="art" viewBox="0 0 200 140" aria-hidden="true"><path d="M10 112h180" stroke="currentColor" stroke-width="2"/><rect x="22" y="44" width="104" height="56" fill="currentColor"/><path d="M130 62h26l18 22v16h-44z" fill="currentColor"/><rect class="art-accent" x="22" y="44" width="104" height="10" fill="currentColor"/><circle cx="48" cy="104" r="11" fill="currentColor" stroke="#F5F6F3" stroke-width="4"/><circle cx="104" cy="104" r="11" fill="currentColor" stroke="#F5F6F3" stroke-width="4"/><circle cx="156" cy="104" r="11" fill="currentColor" stroke="#F5F6F3" stroke-width="4"/></svg>
+            <a class="split-btn" href="#iletisim"><span class="sb-text">Detayları gör</span><span class="sb-icon"><svg aria-hidden="true"><use href="#i-arrow"/></svg></span></a>
+          </div>
+          <h3>Karayolu</h3>
+          <p>Avrupa, Balkanlar ve Orta Asya'ya düzenli komple ve parsiyel tır seferleri. Sınır evrakı araç kapıya varmadan hazır.</p>
+          <div class="svc-tags"><span>FTL</span><span>LTL</span><span>ADR</span><span>Frigo</span></div>
+        </article>
+        <article class="svc">
+          <div class="svc-top"><i></i><span>03</span><em>DENİZ</em></div>
+          <div class="svc-art">
+            <svg class="art" viewBox="0 0 200 140" aria-hidden="true"><path d="M14 92h172l-22 30H36z" fill="currentColor"/><rect x="44" y="64" width="26" height="24" fill="currentColor"/><rect class="art-accent" x="74" y="64" width="26" height="24" fill="currentColor"/><rect x="104" y="64" width="26" height="24" fill="currentColor"/><rect x="74" y="36" width="26" height="24" fill="currentColor"/><rect class="art-accent" x="104" y="36" width="26" height="24" fill="currentColor"/><rect x="146" y="44" width="18" height="44" fill="currentColor"/><path d="M8 130c10 0 10-5 20-5s10 5 20 5 10-5 20-5 10 5 20 5 10-5 20-5 10 5 20 5 10-5 20-5 10 5 20 5 10-5 20-5" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+            <a class="split-btn" href="#iletisim"><span class="sb-text">Detayları gör</span><span class="sb-icon"><svg aria-hidden="true"><use href="#i-arrow"/></svg></span></a>
+          </div>
+          <h3>Deniz yolu</h3>
+          <p>Ambarlı, Mersin ve İzmir'den tüm ana hatlara FCL ve LCL seferler. Garantili yer anlaşmaları ve öngörülebilir haftalık kalkışlar.</p>
+          <div class="svc-tags"><span>FCL</span><span>LCL</span><span>Reefer</span><span>40' HC</span></div>
+        </article>
+        <article class="svc">
+          <div class="svc-top"><i></i><span>04</span><em>DEMİRYOLU</em></div>
+          <div class="svc-art">
+            <svg class="art" viewBox="0 0 200 140" aria-hidden="true"><path d="M6 118h188M6 126h188" stroke="currentColor" stroke-width="2"/><path d="M18 60h44l14 16v32H18z" fill="currentColor"/><rect x="82" y="64" width="50" height="44" fill="currentColor"/><rect class="art-accent" x="138" y="64" width="50" height="44" fill="currentColor"/><circle cx="34" cy="112" r="6" fill="#F5F6F3"/><circle cx="60" cy="112" r="6" fill="#F5F6F3"/><circle cx="96" cy="112" r="6" fill="#F5F6F3"/><circle cx="118" cy="112" r="6" fill="#F5F6F3"/><circle cx="152" cy="112" r="6" fill="#F5F6F3"/><circle cx="174" cy="112" r="6" fill="#F5F6F3"/></svg>
+            <a class="split-btn" href="#iletisim"><span class="sb-text">Detayları gör</span><span class="sb-icon"><svg aria-hidden="true"><use href="#i-arrow"/></svg></span></a>
+          </div>
+          <h3>Demiryolu</h3>
+          <p>Orta Koridor üzerinden Çin, Türkiye ve Avrupa arasında blok tren. Denizden yaklaşık iki hafta hızlı, havadan çok daha ekonomik.</p>
+          <div class="svc-tags"><span>Orta Koridor</span><span>Blok tren</span></div>
+        </article>
+        <article class="svc">
+          <div class="svc-top"><i></i><span>05</span><em>DEPO</em></div>
+          <div class="svc-art">
+            <svg class="art" viewBox="0 0 200 140" aria-hidden="true"><path d="M20 124V54l80-36 80 36v70z" fill="currentColor"/><rect x="56" y="74" width="88" height="50" fill="#F5F6F3"/><rect class="art-accent" x="64" y="98" width="34" height="26" fill="currentColor"/><rect x="102" y="98" width="34" height="26" fill="currentColor"/><rect class="art-accent" x="83" y="78" width="34" height="18" fill="currentColor"/></svg>
+            <a class="split-btn" href="#iletisim"><span class="sb-text">Detayları gör</span><span class="sb-icon"><svg aria-hidden="true"><use href="#i-arrow"/></svg></span></a>
+          </div>
+          <h3>Depolama</h3>
+          <p>Gebze ve Mersin'de gümrüklü ve serbest depolar. Canlı stok görünürlüğü ve kesim saatinden önce aynı gün sevk.</p>
+          <div class="svc-tags"><span>Antrepo</span><span>Cross-dock</span><span>WMS</span></div>
+        </article>
+        <article class="svc">
+          <div class="svc-top"><i></i><span>06</span><em>GÜMRÜK</em></div>
+          <div class="svc-art">
+            <svg class="art" viewBox="0 0 200 140" aria-hidden="true"><path d="M50 12h72l28 28v90H50z" fill="currentColor"/><path d="M122 12v28h28" fill="none" stroke="#F5F6F3" stroke-width="4"/><rect x="66" y="56" width="66" height="6" fill="#F5F6F3"/><rect x="66" y="72" width="50" height="6" fill="#F5F6F3"/><rect x="66" y="88" width="58" height="6" fill="#F5F6F3"/><circle class="art-accent" cx="140" cy="108" r="22" fill="currentColor"/><path d="m130 108 7 7 13-14" fill="none" stroke="#0F0007" stroke-width="4"/></svg>
+            <a class="split-btn" href="#iletisim"><span class="sb-text">Detayları gör</span><span class="sb-icon"><svg aria-hidden="true"><use href="#i-arrow"/></svg></span></a>
+          </div>
+          <h3>Gümrük ve mevzuat</h3>
+          <p>Her koridorda kendi gümrük müşavirlerimiz. Beyanname verilir, vergiler yük varmadan ödenir.</p>
+          <div class="svc-tags"><span>GTİP</span><span>T1</span><span>EUR.1</span><span>A.TR</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="kurumsal" aria-labelledby="about-title">
+    <div class="wrap">
+      <div class="about-head">
+        <div class="head-left">
+          <span class="badge">Kuruluş 2009 · İstanbul / Mersin / Rotterdam</span>
+          <h2 class="sec-title" id="about-title">Aracılar değil, sahada yetişmiş operasyoncular.</h2>
+        </div>
+        <div class="head-right">
+          <p class="sec-text">Yükleme rampasında başladık, toplantı odasında değil. On yedi yıl sonra ilk konteynerimizi rezerve eden ekip hâlâ her rota kararını gözden geçiriyor. Güvenilirlik bizde bir özellik değil, alışkanlık.</p>
+          <a class="btn btn-dark" href="#iletisim"><span class="btn-dot" aria-hidden="true"></span><span class="btn-roll"><span>Teklif al</span><span aria-hidden="true">Teklif al</span></span></a>
+        </div>
+      </div>
+      <div class="about-body">
+        <div class="about-left">
+          <div class="about-num" id="about-num" aria-hidden="true">01</div>
+          <div class="feat-list" role="tablist" aria-label="Neden NETAS">
+            <button class="feat" role="tab" type="button" id="feat-1" aria-selected="true" aria-controls="media-1" data-num="01"><i></i>Kendi kapasitemiz<small>01</small></button>
+            <button class="feat" role="tab" type="button" id="feat-2" aria-selected="false" aria-controls="media-2" data-num="02" tabindex="-1"><i></i>Tek koordinatör<small>02</small></button>
+            <button class="feat" role="tab" type="button" id="feat-3" aria-selected="false" aria-controls="media-3" data-num="03" tabindex="-1"><i></i>Karbon raporlama<small>03</small></button>
+          </div>
+        </div>
+        <div class="about-media">
+          <div class="media-card active" id="media-1" role="tabpanel" aria-labelledby="feat-1">
+            <div class="img"><canvas class="yard" data-sky="day" data-seed="21" data-horizon="0.42" data-cranes="2"></canvas></div>
+            <span class="mc-label">Kendi kapasitemiz</span>
+            <p>Asya–Avrupa hattında kiralık değil kendi yerimiz var. Yoğun sezon sizi hazırlıksız yakalamaz.</p>
+          </div>
+          <div class="media-card dim" id="media-2" role="tabpanel" aria-labelledby="feat-2">
+            <div class="img"><canvas class="yard" data-sky="dusk" data-seed="34" data-horizon="0.5" data-cranes="1"></canvas></div>
+            <span class="mc-label">Tek koordinatör</span>
+            <p>Her müşteri hesabına bir koordinatör. Gece ya da gündüz, ulaşacağınız kişi belli.</p>
+          </div>
+          <div class="media-card dim" id="media-3" role="tabpanel" aria-labelledby="feat-3">
+            <div class="img"><canvas class="yard" data-sky="night" data-seed="55" data-horizon="0.46" data-cranes="2"></canvas></div>
+            <span class="mc-label">Karbon raporlama</span>
+            <p>Her gönderi için GLEC çerçevesine uygun CO₂e hesabı. Raporunuz dönem sonunda hazır.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-dark" id="surec" aria-labelledby="process-title">
+    <div class="wrap">
+      <div class="head-row">
+        <div class="head-left">
+          <span class="badge">05 / Nasıl çalışırız</span>
+          <h2 class="sec-title" id="process-title">Tekliften teslimata üç hamlede.</h2>
+        </div>
+        <div class="head-right">
+          <p class="sec-text">Sürprizsiz, sabit bir sıra. Her aşamada durumu, maliyeti ve tahmini varışı bilirsiniz.</p>
+          <a class="btn" href="#iletisim"><span class="btn-dot" aria-hidden="true"></span><span class="btn-roll"><span>Teklif al</span><span aria-hidden="true">Teklif al</span></span></a>
+        </div>
+      </div>
+      <ol class="process-grid" style="list-style:none;margin:0;padding:0">
+        <li class="step">
+          <div class="step-top"><span>Adım 01</span><div class="step-line" style="--fill:1"></div></div>
+          <div class="step-img"><canvas class="yard" data-sky="dawn" data-seed="71" data-horizon="0.55" data-cranes="1"></canvas></div>
+          <h3>Planla</h3>
+          <p>Yük bilgilerinizi paylaşın, bir iş günü içinde rotalı teklif dönelim: mod, transit süre ve varışa kadar toplam maliyet.</p>
+        </li>
+        <li class="step">
+          <div class="step-top"><span>Adım 02</span><div class="step-line" style="--fill:1"></div></div>
+          <div class="step-img"><canvas class="yard" data-sky="day" data-seed="88" data-horizon="0.4" data-cranes="2"></canvas></div>
+          <h3>Taşı</h3>
+          <p>Kapasiteyi rezerve eder, evrakı hazırlar ve gümrüğü varıştan önce açarız. Siz her şeyi canlı takip edersiniz.</p>
+        </li>
+        <li class="step">
+          <div class="step-top"><span>Adım 03</span><div class="step-line" style="--fill:1"></div></div>
+          <div class="step-img"><canvas class="yard" data-sky="dusk" data-seed="97" data-horizon="0.52" data-cranes="0"></canvas></div>
+          <h3>Teslim et</h3>
+          <p>Son kilometre teslimatı ve imzalı teslim belgesi. Ardından gizli ek ücret içermeyen tek bir konsolide fatura.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section" id="platform" aria-labelledby="platform-title">
+    <div class="wrap platform">
+      <div class="platform-copy">
+        <span class="badge">06 / Platform</span>
+        <h2 class="sec-title" id="platform-title">Her konteyner, tek ekran.</h2>
+        <p class="sec-text">Gönderileri taşıyıcılardan bağımsız gerçek zamanlı izleyin, gümrük belgelerini iki tıkla indirin, gecikmeye dönüşmeden önce uyarı alın. Bütün ekibiniz ve bütün tedarik zinciriniz tek girişte.</p>
+        <ul class="platform-list">
+          <li><b>Canlı konum</b>Konteyner, AWB ve plaka bazında</li>
+          <li><b>Gümrük durumu</b>Eksik belge uyarısıyla birlikte</li>
+          <li><b>Belge arşivi</b>Konşimento, fatura, menşe ve POD</li>
+        </ul>
+        <a class="btn btn-brand" href="#iletisim"><span class="btn-dot" aria-hidden="true"></span><span class="btn-roll"><span>Demo talep et</span><span aria-hidden="true">Demo talep et</span></span></a>
+      </div>
+      <div class="panel" role="img" aria-label="NETAS Panel örneği: NTS-482190 numaralı gönderi Akdeniz'de, gümrük ön onaylı, Rotterdam varışı 2 Aralık 06:00.">
+        <div class="panel-top" aria-hidden="true"><svg><use href="#i-screen"/></svg><span>NETAS Panel</span><span class="live">Canlı</span></div>
+        <dl class="panel-body" aria-hidden="true" style="margin:0">
+          <div class="p-row"><dt>Gönderi</dt><dd>NTS-482190-RTM</dd></div>
+          <div class="p-row"><dt>Gemi</dt><dd>MV Marmara Star / 2647W</dd></div>
+          <div class="p-row"><dt>Konum</dt><dd>36.48°K 014.12°D</dd></div>
+          <div class="p-row"><dt>Gümrük</dt><dd class="ok">● Ön onaylı</dd></div>
+          <div class="p-row"><dt>ETA Rotterdam</dt><dd>02 Ara · 06:00</dd></div>
+          <div class="p-row"><dt>Durum</dt><dd class="ok">Zamanında</dd></div>
+          <div class="p-progress">
+            <div class="t-bar"><span style="width:62%"></span></div>
+            <div class="p-ports"><b>Ambarlı</b><span>Pire</span><span>Valensiya</span><span>Rotterdam</span></div>
+          </div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-page" id="referanslar" aria-labelledby="client-title">
+    <div class="wrap">
+      <div class="head-row">
+        <div class="head-left">
+          <span class="badge">07 / Müşteri notları</span>
+          <h2 class="sec-title" id="client-title">Müşterilerimiz ne diyor?</h2>
+        </div>
+        <div class="head-right">
+          <p class="sec-text">Referans toplamıyoruz, sözleşme yeniliyoruz. Yine de bazı notlar aklımızda kaldı.</p>
+          <div class="slider-nav">
+            <button class="nav-arrow" type="button" data-slider="client-slider" data-dir="-1" aria-label="Önceki yorum"><svg aria-hidden="true"><use href="#i-left"/></svg></button>
+            <button class="nav-arrow" type="button" data-slider="client-slider" data-dir="1" aria-label="Sonraki yorum"><svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+          </div>
+        </div>
+      </div>
+      <div class="slider" id="client-slider" tabindex="0" aria-label="Müşteri yorumları, yatay kaydırılabilir">
+        <figure class="quote-card">
+          <canvas class="yard" data-sky="night" data-seed="101" data-horizon="0.5" data-cranes="2"></canvas>
+          <div class="qc-top"><span class="qc-num">01</span><span class="qc-meta">Konum: Bursa, Türkiye<br>Tarih: 12 Ekim 2026</span></div>
+          <div class="qc-bottom">
+            <figcaption class="qc-author"><span class="qc-avatar" aria-hidden="true">EA</span><div><b>Elif Arslan</b><span>Tedarik Zinciri Müdürü, otomotiv yan sanayi</span></div></figcaption>
+            <span class="qc-label">Müşteri notu</span>
+            <blockquote>“Yükümüze kendi malıymış gibi bakıyorlar. Takip ekranına bakmayı bıraktık, çünkü hiçbir şey aksamıyor.”</blockquote>
+          </div>
+        </figure>
+        <figure class="quote-card">
+          <canvas class="yard" data-sky="dusk" data-seed="117" data-horizon="0.48" data-cranes="1"></canvas>
+          <div class="qc-top"><span class="qc-num">02</span><span class="qc-meta">Konum: İstanbul, Türkiye<br>Tarih: 28 Ekim 2026</span></div>
+          <div class="qc-bottom">
+            <figcaption class="qc-author"><span class="qc-avatar" aria-hidden="true">MK</span><div><b>Mert Kaya</b><span>Lojistik Sorumlusu, ilaç dağıtımı</span></div></figcaption>
+            <span class="qc-label">Müşteri notu</span>
+            <blockquote>“Soğuk zincir sevkiyatlarımızın sıcaklık kaydı her teslimatla panele düşüyor. Denetimlerde ayrıca belge toplamıyoruz.”</blockquote>
+          </div>
+        </figure>
+        <figure class="quote-card">
+          <canvas class="yard" data-sky="dawn" data-seed="131" data-horizon="0.55" data-cranes="2"></canvas>
+          <div class="qc-top"><span class="qc-num">03</span><span class="qc-meta">Konum: Kocaeli, Türkiye<br>Tarih: 04 Kasım 2026</span></div>
+          <div class="qc-bottom">
+            <figcaption class="qc-author"><span class="qc-avatar" aria-hidden="true">ZD</span><div><b>Zeynep Demir</b><span>Satın Alma Direktörü, makine üretimi</span></div></figcaption>
+            <span class="qc-label">Müşteri notu</span>
+            <blockquote>“Orta Koridor'a geçtikten sonra Çin'den gelen parçalar fabrikamıza denize göre on sekiz gün önce ulaşıyor.”</blockquote>
+          </div>
+        </figure>
+        <figure class="quote-card">
+          <canvas class="yard" data-sky="night" data-seed="149" data-horizon="0.44" data-cranes="1"></canvas>
+          <div class="qc-top"><span class="qc-num">04</span><span class="qc-meta">Konum: İzmir, Türkiye<br>Tarih: 15 Kasım 2026</span></div>
+          <div class="qc-bottom">
+            <figcaption class="qc-author"><span class="qc-avatar" aria-hidden="true">CY</span><div><b>Can Yıldız</b><span>İhracat Müdürü, hazır giyim</span></div></figcaption>
+            <span class="qc-label">Müşteri notu</span>
+            <blockquote>“Sezon açılışında üç ülkeye aynı gün sevk ettik. Tek koordinatör, tek fatura, sıfır telaş.”</blockquote>
+          </div>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="rakamlar" aria-labelledby="metrics-title">
+    <div class="wrap">
+      <div class="metrics-head">
+        <span class="badge">08 / Rakamlarla NETAS</span>
+        <h2 class="sec-title" id="metrics-title">Söz verdiğimiz tarihte kapınızdayız.</h2>
+        <p class="sec-text">2025 operasyon verileri. Zamanında teslimat oranı, teklifte bildirdiğimiz tarihe göre hesaplanır.</p>
+        <a class="btn btn-brand" href="#iletisim"><span class="btn-dot" aria-hidden="true"></span><span class="btn-roll"><span>Teklif al</span><span aria-hidden="true">Teklif al</span></span></a>
+      </div>
+      <div class="metrics-list">
+        <div class="metric"><b>120<span>+</span></b><small>Hizmet verilen ülke</small></div>
+        <div class="metric"><b><span>%</span>98,4</b><small>Zamanında teslimat</small></div>
+        <div class="metric"><b>2,1<span>M</span></b><small>Taşınan gönderi</small></div>
+      </div>
+      <div class="metrics-media">
+        <canvas class="yard" data-sky="dusk" data-seed="203" data-horizon="0.5" data-cranes="3"></canvas>
+        <span class="badge badge-glass mm-tag">Ambarlı terminali</span>
+        <figure class="mm-quote">
+          <blockquote>“Bizim işimiz yükü taşımak değil, müşterimizin verdiği sözü tutmasını sağlamak. Her rota kararını bu soruyla veriyoruz.”</blockquote>
+          <figcaption><span class="qc-avatar" aria-hidden="true">AT</span><div><b>Ahmet Tekin</b><span>Genel Müdür, NETAS</span></div></figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-page" id="haberler" aria-labelledby="news-title">
+    <div class="wrap">
+      <div class="head-row">
+        <div class="head-left">
+          <span class="badge">09 / Haberler</span>
+          <h2 class="sec-title" id="news-title">Operasyon masasından notlar.</h2>
+        </div>
+        <div class="head-right">
+          <p class="sec-text">Küresel ticareti ve lojistiği şekillendiren gelişmeler, hat bazında gözlemlerimiz ve sahadan hikâyeler.</p>
+          <a class="split-btn" href="#haberler"><span class="sb-text">Tüm yazılar</span><span class="sb-icon"><svg aria-hidden="true"><use href="#i-arrow"/></svg></span></a>
+        </div>
+      </div>
+      <div class="news-grid">
+        <a class="news-card" href="#haberler">
+          <div class="img"><canvas class="yard" data-sky="day" data-seed="301" data-horizon="0.45" data-cranes="2"></canvas></div>
+          <div class="news-body">
+            <span class="news-cat">Lojistik</span>
+            <h3>Yoğun sezon değerlendirmesi: tutan beş hat, aksayan üç hat</h3>
+            <p>Geçen yoğun sezonda zamanında teslimat oranlarımız hat hat neydi? Yanıldığımız yerler dahil.</p>
+            <div class="news-bottom"><time datetime="2026-09-25">25 Eylül 2026</time><span>Oku <svg aria-hidden="true"><use href="#i-arrow"/></svg></span></div>
+          </div>
+        </a>
+        <a class="news-card" href="#haberler">
+          <div class="img"><canvas class="yard" data-sky="dawn" data-seed="317" data-horizon="0.5" data-cranes="0"></canvas></div>
+          <div class="news-body">
+            <span class="news-cat">Demiryolu</span>
+            <h3>Orta Koridor'da haftalık blok tren sayısı üçe çıktı</h3>
+            <p>Köseköy–Xi'an hattında yeni slotlar, transit süreler ve rezervasyon pencereleri.</p>
+            <div class="news-bottom"><time datetime="2026-10-09">9 Ekim 2026</time><span>Oku <svg aria-hidden="true"><use href="#i-arrow"/></svg></span></div>
+          </div>
+        </a>
+        <a class="news-card" href="#haberler">
+          <div class="img"><canvas class="yard" data-sky="night" data-seed="333" data-horizon="0.48" data-cranes="2"></canvas></div>
+          <div class="news-body">
+            <span class="news-cat">Gümrük</span>
+            <h3>2027 GTİP değişiklikleri ihracatçıyı nasıl etkileyecek?</h3>
+            <p>Yeni tarife pozisyonları, geçiş takvimi ve beyanname hatalarını önlemek için kontrol listesi.</p>
+            <div class="news-bottom"><time datetime="2026-10-23">23 Ekim 2026</time><span>Oku <svg aria-hidden="true"><use href="#i-arrow"/></svg></span></div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="sss" aria-labelledby="faq-title">
+    <div class="wrap faq">
+      <div class="faq-img"><canvas class="yard" data-sky="dawn" data-seed="404" data-horizon="0.58" data-cranes="2"></canvas></div>
+      <div class="faq-content">
+        <div class="faq-head">
+          <span class="badge">10 / SSS</span>
+          <h2 class="sec-title" id="faq-title">Sormadan önce cevaplar.</h2>
+          <p class="sec-text">Yeni müşterilerimizin ilk sorduğu sorular. Diğer her şeyi koordinatörünüz gece gündüz bir saat içinde yanıtlar.</p>
+        </div>
+        <div class="faq-list">
+          <details class="faq-item" open>
+            <summary><span class="faq-n">S—01</span><span class="faq-t">Yeni bir hat için ne kadar sürede teklif veriyorsunuz?</span><span class="faq-ic" aria-hidden="true"><svg><use href="#i-plus"/></svg></span></summary>
+            <p class="faq-a">Bir iş günü içinde, çoğu zaman birkaç saatte. Çıkış, varış, ürün ve yaklaşık ölçüleri gönderin. Size yalnızca navlun değil; mod, transit süre ve varışa kadar toplam maliyeti içeren rota seçenekleri dönüyoruz.</p>
+          </details>
+          <details class="faq-item">
+            <summary><span class="faq-n">S—02</span><span class="faq-t">Gümrük işlemlerini kendiniz mi yürütüyorsunuz?</span><span class="faq-ic" aria-hidden="true"><svg><use href="#i-plus"/></svg></span></summary>
+            <p class="faq-a">Evet. İhracat ve ithalat beyannamesi, transit belgesi (<code>T1</code>), GTİP sınıflandırması ve <code>EUR.1</code>, <code>A.TR</code> gibi menşe belgelerini kendi gümrük müşavirlerimiz hazırlar.</p>
+          </details>
+          <details class="faq-item">
+            <summary><span class="faq-n">S—03</span><span class="faq-t">Yüküm gecikirse ne oluyor?</span><span class="faq-ic" aria-hidden="true"><svg><use href="#i-plus"/></svg></span></summary>
+            <p class="faq-a">Gecikme riskini genellikle siz fark etmeden görürüz. Koordinatörünüz sizi arar, alternatif rotayı ve yeni tahmini varışı maliyetiyle birlikte sunar. Onayınızla plan hemen değişir.</p>
+          </details>
+          <details class="faq-item">
+            <summary><span class="faq-n">S—04</span><span class="faq-t">Hangi teslim şekilleriyle (Incoterms) çalışıyorsunuz?</span><span class="faq-ic" aria-hidden="true"><svg><use href="#i-plus"/></svg></span></summary>
+            <p class="faq-a">Incoterms 2020'deki tüm teslim şekilleriyle: <code>EXW</code>, <code>FCA</code>, <code>FOB</code>, <code>CIF</code>, <code>DAP</code> ve <code>DDP</code> dahil. Size uygun olanı teklif aşamasında birlikte belirleriz.</p>
+          </details>
+          <details class="faq-item">
+            <summary><span class="faq-n">S—05</span><span class="faq-t">Minimum gönderi büyüklüğü var mı?</span><span class="faq-ic" aria-hidden="true"><svg><use href="#i-plus"/></svg></span></summary>
+            <p class="faq-a">Hayır. Tek paletlik parsiyel yükten blok trene kadar her hacimle çalışıyoruz. Küçük yükleri parsiyel (LCL, LTL) seferlerle birleştirerek maliyeti düşürüyoruz.</p>
+          </details>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta" id="iletisim" aria-labelledby="cta-title">
+    <canvas class="yard" data-sky="dusk" data-seed="505" data-horizon="0.42" data-cranes="3"></canvas>
+    <div class="wrap">
+      <div class="cta-content">
+        <span class="badge badge-glass">11 / İletişim</span>
+        <h2 id="cta-title">Yola çıkmaya hazır mısınız? Bir iş gününde rotalı teklif alın.</h2>
+        <p>Ne gönderdiğinizi ve nereye ulaşması gerektiğini anlatın. Size bir bot değil, koordinatörünüz rota seçenekleri ve toplam maliyetle dönsün.</p>
+      </div>
+      <div class="cta-grid">
+        <dl class="contact-box">
+          <div><dt>Telefon</dt><dd><span id="c-phone">+90 212 555 00 00</span><button class="copy-btn" type="button" data-copy="c-phone">Kopyala</button></dd></div>
+          <div><dt>E-posta</dt><dd><span id="c-mail">teklif@netaslojistik.com</span><button class="copy-btn" type="button" data-copy="c-mail">Kopyala</button></dd></div>
+          <div><dt>Merkez</dt><dd>Ambarlı Liman Yolu No: 12, Avcılar / İstanbul</dd></div>
+          <div><dt>Çalışma</dt><dd>Operasyon masası 7/24, ofis hafta içi 08:30–18:30</dd></div>
+        </dl>
+        <div class="qform">
+          <h3>Teklif formu</h3>
+          <p><span style="color:var(--brand-soft)">*</span> ile işaretli alanlar zorunludur.</p>
+          <form id="quote-form" novalidate>
+            <div class="qgrid">
+              <div class="qfield"><label for="q-name">Ad soyad <span class="req">*</span></label><input class="q-input" id="q-name" name="name" autocomplete="name" aria-describedby="q-name-err"><p class="q-err" id="q-name-err"></p></div>
+              <div class="qfield"><label for="q-email">İş e-postası <span class="req">*</span></label><input class="q-input" id="q-email" name="email" type="email" autocomplete="email" placeholder="ad@firma.com" aria-describedby="q-email-err"><p class="q-err" id="q-email-err"></p></div>
+              <div class="qfield"><label for="q-from">Çıkış noktası <span class="req">*</span></label><input class="q-input" id="q-from" name="from" placeholder="Şehir veya liman" aria-describedby="q-from-err"><p class="q-err" id="q-from-err"></p></div>
+              <div class="qfield"><label for="q-to">Varış noktası <span class="req">*</span></label><input class="q-input" id="q-to" name="to" placeholder="Şehir veya liman" aria-describedby="q-to-err"><p class="q-err" id="q-to-err"></p></div>
+              <fieldset class="qfield full" style="border:0;padding:0;margin:0">
+                <legend>Taşıma modu</legend>
+                <div class="modes">
+                  <div class="mode"><input type="radio" id="m-sea" name="mode" value="Deniz" checked><label for="m-sea"><svg aria-hidden="true"><use href="#m-ship"/></svg>Deniz</label></div>
+                  <div class="mode"><input type="radio" id="m-air" name="mode" value="Hava"><label for="m-air"><svg aria-hidden="true"><use href="#m-plane"/></svg>Hava</label></div>
+                  <div class="mode"><input type="radio" id="m-road" name="mode" value="Kara"><label for="m-road"><svg aria-hidden="true"><use href="#m-truck"/></svg>Kara</label></div>
+                  <div class="mode"><input type="radio" id="m-rail" name="mode" value="Demiryolu"><label for="m-rail"><svg aria-hidden="true"><use href="#m-train"/></svg>Demiryolu</label></div>
+                </div>
+              </fieldset>
+              <div class="qfield"><label for="q-incoterm">Teslim şekli</label><select class="q-input" id="q-incoterm" name="incoterm"><option value="">Emin değilim</option><option>EXW</option><option>FCA</option><option>FOB</option><option>CIF</option><option>DAP</option><option>DDP</option></select></div>
+              <div class="qfield"><label for="q-weight">Tahmini ağırlık (kg)</label><input class="q-input" id="q-weight" name="weight" inputmode="decimal" placeholder="Örn. 12 500"></div>
+              <div class="qfield full"><label for="q-cargo">Yük açıklaması</label><textarea class="q-input" id="q-cargo" name="cargo" placeholder="Ürün, ambalaj tipi, palet veya koli sayısı, özel koşullar"></textarea></div>
+            </div>
+            <div class="q-actions">
+              <button class="btn btn-brand" type="submit"><span class="btn-dot" aria-hidden="true"></span><span class="btn-roll"><span>Teklif iste</span><span aria-hidden="true">Teklif iste</span></span></button>
+              <small>Bilgilerinizi yalnızca teklif hazırlamak için kullanırız.</small>
+            </div>
+            <div class="q-status" id="q-status" role="status" hidden></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer-sec">
+  <div class="footer-box">
+    <div class="f-top">
+      <div class="f-brand">
+        <a class="brand" href="#top" aria-label="NETAS ana sayfa">
+          <svg viewBox="0 0 34 34" aria-hidden="true"><rect width="34" height="34" rx="4" fill="#EA580C"/><path d="M10 24V10l14 14V10" fill="none" stroke="#0F0007" stroke-width="3.2" stroke-linecap="square"/></svg>
+          <span>NETAS</span>
+        </a>
+        <p>Tek iletişim noktası ve tam görünürlükle küresel taşımacılık. İstanbul, Mersin, Rotterdam.</p>
+      </div>
+      <div>
+        <p class="f-label">İletişim</p>
+        <ul class="f-contact">
+          <li><svg aria-hidden="true"><use href="#i-mail"/></svg>teklif@netaslojistik.com</li>
+          <li><svg aria-hidden="true"><use href="#i-phone"/></svg>+90 212 555 00 00</li>
+        </ul>
+      </div>
+      <div>
+        <p class="f-label">Bültene kaydolun</p>
+        <form class="f-form" id="news-form" novalidate>
+          <label class="sr-only" for="f-email">E-posta adresiniz</label>
+          <input class="q-input" id="f-email" type="email" placeholder="E-posta adresiniz" autocomplete="email">
+          <button class="btn btn-brand" type="submit" style="padding:10px 16px">Kaydol</button>
+        </form>
+        <p class="f-note" id="news-note">Bilgileriniz üçüncü taraflarla paylaşılmaz.</p>
+      </div>
+    </div>
+    <div class="f-mid">
+      <a class="back-top" href="#top"><i><svg aria-hidden="true"><use href="#i-arrow"/></svg></i>Başa dön</a>
+      <div class="f-col"><p class="f-label">Kurumsal</p><ul><li><a href="#kurumsal">Hakkımızda</a></li><li><a href="#ag">Küresel ağ</a></li><li><a href="#surec">Süreç</a></li><li><a href="#haberler">Haberler</a></li></ul></div>
+      <div class="f-col"><p class="f-label">Hizmetler</p><ul><li><a href="#hizmetler">Hava kargo</a></li><li><a href="#hizmetler">Karayolu</a></li><li><a href="#hizmetler">Deniz yolu</a></li><li><a href="#hizmetler">Depolama</a></li><li><a href="#hizmetler">Gümrük</a></li></ul></div>
+      <div class="f-col"><p class="f-label">Destek</p><ul><li><a href="#takip">Gönderi takibi</a></li><li><a href="#sss">SSS</a></li><li><a href="#iletisim">Teklif al</a></li><li><a href="#platform">NETAS Panel</a></li></ul></div>
+    </div>
+    <div class="f-bottom"><span>© 2026 NETAS Lojistik A.Ş.</span><span><span>KVKK Aydınlatma Metni</span><span>Çerez Politikası</span></span></div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
